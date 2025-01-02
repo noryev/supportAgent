@@ -379,7 +379,8 @@ Version update process:
 bashCopysudo systemctl stop bacalhau
 sudo systemctl stop lilypad-resource-provider
 sudo rm -rf /usr/bin/bacalhau
-# Reinstall following docs
+
+Reinstall following docs
 sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 Issue 15: Rewards and Slashing
