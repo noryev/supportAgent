@@ -319,7 +319,7 @@ Issue 9: Cant See New Nodes on Leaderboard
 User: How long does it take for new nodes to appear on the leaderboard?
 Support: Please post your wallet address for verification. Typically, it takes 24 hours before a new node will appear on the leaderboard.
 
-Issue 9: No POW Activity Troubleshooting
+Issue 10: No POW Activity Troubleshooting
 
 Ensure running latest Lilypad version
 Verify network activity on Arbiscan (Sepolia)
@@ -327,14 +327,14 @@ Check RP online status in Leaderboard and node dashboard
 Verify sufficient Lilypad Tokens (LP) and Arbitrum ETH
 Regular updates and restarts recommended
 
-Issue 10: Version Tracking and Updates
+Issue 11: Version Tracking and Updates
 
 Monitor updates-rp Discord channel
 Check Lilypad updates page
 Follow installation guides for Linux/Docker environments
 Regular version checks recommended
 
-Issue 11: Node Setup and Monitoring
+Issue 12: Node Setup and Monitoring
 Verification steps:
 
 Check wallet balances (ETH and LP)
@@ -344,14 +344,15 @@ Use status commands:
 
 bashCopysudo systemctl status lilypad-resource-provider
 sudo journalctl -u lilypad-resource-provider.service -f
-Issue 12: Hardware Requirements
+
+Issue 13: Hardware Requirements
 
 GPU required for Lilybit rewards
 CPU-only nodes can run but won't receive rewards
 Linux installation required (Windows = experimental)
 One RP per GPU policy enforced
 
-Issue 13: Common Technical Errors
+Issue 14: Common Technical Errors
 
 Bacalhau IPFS init error:
 
@@ -370,7 +371,7 @@ Error Code 222:
 Incorrect CUDA version
 Install appropriate CUDA version for GPU type
 
-Issue 14: Service Management
+Issue 15: Service Management
 Restart sequence:
 bashCopysudo systemctl restart lilypad
 sudo systemctl restart bacalhau
@@ -487,7 +488,7 @@ Gas fees for smart contracts
 Transaction record fees
 Dispute documentation fees
 
-Issue 26: LilyBit_ Reward System
+Issue 25: LilyBit_ Reward System
 Q: How do LilyBit_ rewards work?
 Reward Structure:
 
@@ -497,7 +498,7 @@ Redeemable for Lilypad ERC20 Utility Token at Mainnet Launch
 5-10% of total token supply allocated (depends on demand and tokenomics)
 Progress tracked via RP Leaderboard
 
-Issue 27: Reward Eligibility
+Issue 26: Reward Eligibility
 Q: Who can earn LilyBit_ rewards?
 Phase 1:
 
@@ -510,7 +511,7 @@ Rewards for Lilypad module creation
 Rewards for developer tools/apps
 Continued node rewards
 
-Issue 28: Reward Tracking
+Issue 27: Reward Tracking
 Q: How do I check my Lilybit_ rewards?
 Tracking Interfaces:
 
@@ -518,7 +519,7 @@ Grafana dashboard
 Lilypad leaderboard
 Open Source contributor dashboard
 
-Issue 29: Blockchain Integration
+Issue 28: Blockchain Integration
 Q: How does Lilypad use blockchain, and why do I need both ETH and Lilypad tokens?
 Blockchain Usage:
 
