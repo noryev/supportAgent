@@ -58,7 +58,7 @@ CUDA_VISIBLE_DEVICES would be changed for each GPU/instance. You need a service 
 Q: Is it possible to use same address for all miners?
 A: Not currently.
 
-# Issue 3: WebSocket error fix
+Issue 3: WebSocket error fix
 
 Description: After running the lilypad node for a certain period of time, the message from the title appears and the node stops working (no more POWs worked on).
 
