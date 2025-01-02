@@ -1,4 +1,4 @@
-# Issue 1: Bacalhau Problem in Docker, v2.10.0
+Issue 1: Bacalhau Problem in Docker, v2.10.0
 
 I am trying to run my RP with Docker. This always worked until v2.10.0 was released. I tried using the Docker-Compose method but that was hopeless, so I am trying to run my RP using the normal Docker method. It seems to almost be working except that the RP container keeps restarting and gives this error:
 
@@ -33,7 +33,7 @@ Error response from daemon: driver failed programming external connectivity on e
 
 Resolution: Need to kill old ipfs that's already using the port. After reinstalling Ubuntu, got it working using the Linux method.
 
-# Issue 2: Use multiple GPUs
+Issue 2: Use multiple GPUs
 
 Question: I have more than one gpu on the machine I'm running lily pad on and I'm wondering how to use more than one GPU. Any tips are appreciated?
 
